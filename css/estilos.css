@@ -21,9 +21,13 @@ body {
   overflow-x: hidden;
   background-color:#EEE;
 }
-@media (max-width: 768px) or (max-width:480px) or (max-width:820px)  {
+@media (max-width:340px) or (max-width: 768px) or (max-width:480px) or (max-width:820px)  {
     .layout{
       display: block;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .education__table{
+      font-size: 1rem;
     }
 }
 .layout__aside {
@@ -57,7 +61,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 1rem;
   font-size: 1.3rem;
-  font-weight: 100;
+  font-weight: normal;
 }
 .layout__menu {
   display: flex;
@@ -85,6 +89,19 @@ body {
   background-color: #fff;
   transition: all 0.2s ease-in;
 }
+.list__personal-data{
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 1rem;
+  gap: 1.2rem;
+  list-style: none;
+  font-size: 1.2rem;
+}
+.list__item{
+  display: flex;
+  justify-content:center;
+  gap:0.5rem;
+}
 .layout__content {
   border-left: 3px solid black;
   border-radius: 0 10px 10px 0;
@@ -108,6 +125,7 @@ body {
   font-family: "Cambria";
 }
 .education__table{
+    width: 80%;
     margin: 1rem;
     border: 1px solid black;
 }
@@ -146,6 +164,9 @@ body {
 .skills__item{
     height: 2rem;
 }
+.languages__menu{
+  list-style-position:inside ;
+}
 .language__item{
-    height: 3rem; 
+    height: 2rem; 
 }
