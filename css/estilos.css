@@ -21,7 +21,7 @@ body {
   overflow-x: hidden;
   background-color:#EEE;
 }
-@media (max-width: 768px) or (max-width:480px)  {
+@media (max-width: 768px) or (max-width:480px) or (max-width:820px)  {
     .layout{
       display: block;
     }
